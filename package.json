@@ -1,14 +1,14 @@
 {
-  "name": "homebridge-suncalc",
+  "name": "homebridge-sundown-sensor",
   "version": "0.0.1",
-  "description": "Suncalc plugin for homebridge: https://github.com/nfarina/homebridge to trigger off sunset and sunrise",
+  "description": "Send sensor event at sundown for homebridge: https://github.com/nfarina/homebridge",
   "license": "MIT",
   "keywords": [
     "homebridge-plugin"
   ],
-  "repository": "kcharwood/homebridge-suncalc",
+  "repository": "demonbane/homebridge-sundown-sensor",
   "bugs": {
-    "url": "http://github.com/kcharwood/homebridge-suncalc/issues"
+    "url": "http://github.com/demonbane/homebridge-sundown-sensor/issues"
   },
   "engines": {
     "node": ">=4.2.0",
