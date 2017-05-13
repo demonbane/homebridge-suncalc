@@ -123,6 +123,11 @@ module.exports = homebridge => {
                     Characteristic.OccupancyDetected,
                     Characteristic.OccupancyDetected.OCCUPANCY_DETECTED
                 );
+            } else {
+	        this.service.setCharacteristic(
+                    Characteristic.OccupancyDetected,
+                    Characteristic.OccupancyDetected.OCCUPANCY_NOT_DETECTED
+                );
             }
 
             setTimeout(this.updateAmbientLightLevel.bind(this), nextUpdate - now);
