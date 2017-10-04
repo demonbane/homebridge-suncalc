@@ -1,3 +1,5 @@
+## NOTE: iOS 11 includes support for sundown offset, so this fork is abandoned
+
 # homebridge-sundown-sensor
 
 [Suncalc](https://github.com/mourner/suncalc) plugin for [Homebridge](https://github.com/nfarina/homebridge) that publishes a HomeKit occupancy sensor that gets triggered at Sundown, or at a certain offset from sundown. (e.g. sundown - 30 minutes)
